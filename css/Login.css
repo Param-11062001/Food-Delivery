@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    text-transform: none;
+    text-decoration: none;
+    font-size: 2rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/bg01.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    z-index: -1;
+}
+
+header {
+    position: fixed;
+    background: #545454;
+    width: 100%;
+    padding: 0.5rem 0rem;
+}
+
+header img {
+    position: absolute;
+    height: 4rem;
+    align-items: center;
+}
+
+.navbar {
+    text-align: right;
+}
+
+.navbar a {
+    display: inline-block;
+    flex-direction: column;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 1rem 1rem;
+    margin: 0rem 0rem;
+    transition: 0.5s ease;
+}
+
+.navbar a:hover {
+    color: tomato;
+    border-radius: 50px;
+}
+
+.container {
+    border: 2px solid #A6A6A6;
+    border-radius: 0.8rem;
+    margin-top: 2rem;
+    width: 48rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+}
+
+.title {
+    margin: 2rem 3rem;
+    font-size: 3rem;
+    color: #565656;
+    justify-content: space-between;
+    display: flex;
+}
+
+.username,
+.password,
+.btn {
+    padding: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+    width: 40rem;
+    justify-content: center;
+    margin: 0rem 1rem;
+    font-size: 2rem;
+}
+
+button.btn {
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: tomato;
+    width: 42.5rem;
+    margin-bottom: 1rem;
+}
+
+button.btn:hover {
+    cursor: pointer;
+    background-color: rgb(224, 86, 61);
+}
+
+.or {
+    position: relative;
+    margin-top: -16px;
+    text-align: center;
+}
+
+span {
+    z-index: 1;
+    background-color: whitesmoke;
+    padding: 0.3rem;
+    color: #a6a6a6;
+}
+
+.login-email,
+.login-google {
+    padding: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+    justify-content: center;
+    margin: 0rem 1rem;
+    font-size: 2rem;
+}
+
+button.login-email,
+button.login-google {
+    color: #565656;
+    background-color: whitesmoke;
+    text-decoration: none;
+    width: 42.5rem;
+    margin-bottom: 1rem;
+}
+
+button.login-email:hover,
+button.login-google:hover {
+    cursor: pointer;
+    background-color: rgb(216, 209, 209);
+}
+
+.last-line {
+    color: #565656;
+    margin-top: -1rem;
+    padding: 1rem 2rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+.last-line a {
+    text-decoration: none;
+    color: tomato;
+}
+
+.last-line a:hover {
+    color: rgb(230, 65, 36);
+}
+
+hr {
+    margin: 0rem 4rem;
+}
+
+.username,
+.password {
+    color: tomato;
+}
